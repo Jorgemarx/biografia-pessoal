@@ -1,15 +1,24 @@
-<html lang="pt-br"><head>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Site_pessoal-CSS/css/style.css">
     <title>Biografia Jorge</title>
 </head>
 <body>
-  <img src="img/jorge-modified.png" alt="Foto do Jorge" width="18%"/>
-  <h1>Jorge Marques</h1>
+  <table>
+    <tr>
+      <td>
+        <img src="/Site_pessoal-CSS/img/jorge-modified.png" alt="Foto do Jorge" width="120" height="114" align="left" style="margin: 0px 12px 0px -6px;">
+      </td>
+<td>
+  <h1>Jorge Marques</h1><!---->
   <p>Universitário na <strong><a href="https://estacio.br/">Estácio de Sá</a></strong></p>
-  
+      </td>
+    </tr>
+  </table>
   <hr>
 
   <h3>O que eu gosto de fazer</h3>
@@ -22,20 +31,13 @@
     <li>Assistir séries e documentários</li>
 
   </ol>
-  <a href="contato/contato.html">
+  <a href="Site_pessoal-CSS/contato/contato.html">
   <h2>Entre em Contato</h2>
   </a>
-
-
-
-
-
-
-
-
-  
+    
     <table>
-        <tbody><tr>
+        <tbody>
+          <tr>
           <th>Minhas Habilidades</th>
         </tr>
           <tr> 
@@ -51,16 +53,16 @@
             <td>⭐⭐⭐</td>
         </tr></tbody></table>
           
-        <form>
-          <label for="">Nome Completo</label><br>
-          <input type="text"><br><br>
+        <form action="mailto:jorgemarques553@gmail.com" method="post" enctype="text/plain">
+          <label for="">Nome Completo</label> <br>
+          <input type="text" name="Nome"> <br> <br>
           
           <label for="">Email</label><br>
-          <input type="email"><br><br>
+          <input type="email" name="email"><br><br>
           
           <label for="">Sua mensagem</label><br>
-          <textarea cols="30" rows="10"></textarea><br><br>
+          <textarea name="mensagem" cols="30" rows="10"></textarea><br><br>
           <input type="submit">
-        
-
-</form></body></html>
+        </form>
+</body>
+</html>
